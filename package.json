@@ -1,0 +1,20 @@
+{
+  "name": "book-search",
+  "version": "1.0.0",
+  "description": "Book Search Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyncent-t/book-search-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vyncent-t/book-search-project/issues"
+  },
+  "homepage": "https://github.com/vyncent-t/book-search-project#readme"
+}
