@@ -1,20 +1,23 @@
 {
-  "name": "book-search",
+  "name": "googlebooks-app",
   "version": "1.0.0",
-  "description": "Book Search Project",
-  "main": "index.js",
+  "description": "",
+  "main": "server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vyncent-t/book-search-project.git"
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vyncent-t/book-search-project/issues"
+  "devDependencies": {
+    "concurrently": "^5.1.0"
   },
-  "homepage": "https://github.com/vyncent-t/book-search-project#readme"
+  "dependencies": {
+    "apollo-server-express": "^3.1.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1"
+  }
 }
