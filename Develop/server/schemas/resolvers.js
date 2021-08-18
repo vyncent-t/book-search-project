@@ -12,7 +12,7 @@ const resolvers = {
     },
 
     Mutation: {
-        login: async (parent, { email, password }) => {
+        loginUser: async (parent, { email, password }) => {
             const user = await User.findONe({ email });
             if (!user) {
                 throw new AuthentcatoinError('No user found with this email')
