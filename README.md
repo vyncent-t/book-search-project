@@ -15,3 +15,5 @@ This app was created using a combination of React, MongoDB, GraphQL, and Apollo 
 Once the app is pulled, download the required packages and run npm start once ready.
 
 ### Image
+![image](https://user-images.githubusercontent.com/78232183/130132080-5e15a31c-0ba6-42ac-b80f-916805877941.png)
+
